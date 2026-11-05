@@ -33,7 +33,7 @@ main {
 .hero {
   display: flex;
   justify-content: center;
-  padding: 24px 0;
+  padding: 56px 0;
 }
 
 .hero-video {
@@ -45,12 +45,12 @@ main {
 }
 
 .mission {
-  padding: 40px 42px 64px;
+  padding: 72px 42px 80px;
   text-align: center;
 }
 
 .mission h1 {
-  margin: 0 0 20px;
+  margin: 0 0 28px;
   font-size: 22px;
   font-weight: 700;
 }
@@ -65,6 +65,14 @@ main {
 @media (min-width: 768px) {
   .logo {
     width: 160px;
+  }
+
+  .hero {
+    padding: 80px 0;
+  }
+
+  .mission {
+    padding-top: 96px;
   }
 
   .mission h1 {
