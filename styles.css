@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.site-header {
+  display: flex;
+  justify-content: center;
+  padding: 18px 20px 0;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.hero-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  pointer-events: none;
+}
+
+.mission {
+  padding: 40px 42px 64px;
+  text-align: center;
+}
+
+.mission h1 {
+  margin: 0 0 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.mission p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 160px;
+  }
+
+  .mission h1 {
+    font-size: 28px;
+  }
+
+  .mission p {
+    font-size: 20px;
+  }
+}
