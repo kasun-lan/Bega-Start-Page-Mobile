@@ -33,7 +33,7 @@ main {
 .hero {
   display: flex;
   justify-content: center;
-  padding: 112px 0 56px;
+  padding: 136px 0 56px;
 }
 
 .hero-video {
@@ -68,7 +68,7 @@ main {
   }
 
   .hero {
-    padding: 160px 0 80px;
+    padding: 192px 0 80px;
   }
 
   .mission {
